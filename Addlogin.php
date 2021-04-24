@@ -21,13 +21,13 @@ $_SESSION['username']=$username;
   { 
 if($row['user_type']=="admin")
 {
-	header("location:index.html");
+	header("location:startbootstrap-sb-admin-2-gh-pages/index.html");
 	exit;
 }
 
 else if($row['user_type']=="user")
 {
-	header("location:index.html");
+	header("location:home.php");
 	exit;
 }
 

@@ -28,7 +28,7 @@ $n=mysqli_insert_id($con);
 $sq="insert into reg_tbl(name,phone,email,log_id) values('$Name','$phono','$Email_id','$n')";
 if(mysqli_query($con,$sq))
 {
-    header("location:menu.html");
+    header("location:login.html");
 }
 }
 mysqli_close($con);
